@@ -1,29 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry - point 
- * Return: 0 (success)
- */
+ * main - entry point
+ * Description:  prints all possible combinations of two digits
+ * Return: 0
+*/
 int main(void)
 {
-	int c;
-	int a;
+	int x;
+	int y;
 
-	for (c = 1; c < 10; c++)
+	for (x = 0; x <= 9; x++)
 	{
-		putchar('0' + c);
-		putchar(',');
-		putchar(' ');
-	}
-	for(a = 12; a < 90; a++)
-	{
-		putchar(a);
-		if (a < 89)
+		for (y = x + 1; y <= 9; y++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar('0' + x);
+			putchar('0' + y);
+
+			if (x != 8 || y != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
