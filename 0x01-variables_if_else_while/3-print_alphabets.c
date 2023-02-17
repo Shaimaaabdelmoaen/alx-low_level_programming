@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
  * Return:Always 0 (success)
 */
 int main(void)
 {
 	char c;
-
 	char d;
 
 	c = 'a';
@@ -23,5 +21,5 @@ int main(void)
 			d++;
 		}
 	putchar('\n');
-	return(0);
+	return (0);
 }
