@@ -1,20 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - entry point
- * Description: prints single digits of base 10 starting from 0
- * Return: 0
+ * Return: 0 (success)
 */
-	int main(void)
+int main(void)
 {
+	int c;
 
-	int s = 0;
-
-	for (s = 0; s < 10; s++)
-	{
-		printf("%d", s);
-	}
+	c=0;
+	while
+		(c <10) {
+			putchar (c + '0');
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
