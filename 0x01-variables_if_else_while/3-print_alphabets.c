@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - entry point
- * Description: prints the alphabet in lowercase, except q and e
- * Return: 0
+ * main - Entry point
+ * 
+ * Return:Always 0 (success)
 */
 int main(void)
 {
@@ -21,7 +19,7 @@ int main(void)
 			c++;
 		}
 	while
-		(c <='Z') {
+		(d <='Z') {
 			putchar(d);
 			d++;
 		}
