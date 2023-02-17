@@ -5,21 +5,18 @@
  */
 int main(void)
 {
-	int x;
 	int c;
 	int a;
 
-	x = 0;
 	for (c = 1; c < 10; c++)
 	{
-		putchar(x);
-		putchar(c + '0');
+		putchar('0' + c);
 		putchar(',');
 		putchar(' ');
 	}
 	for(a = 12; a < 90; a++)
 	{
-		putchar(a + '0');
+		putchar(a);
 		if (a < 89)
 		{
 			putchar(',');
