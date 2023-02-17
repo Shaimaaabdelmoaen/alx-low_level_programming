@@ -12,7 +12,7 @@ int main(void)
 	d = 'a';
 	while
 		(c < 10) {
-			putchar(c);
+			putchar(c + '0');
 			c++;
 		}
 	while
