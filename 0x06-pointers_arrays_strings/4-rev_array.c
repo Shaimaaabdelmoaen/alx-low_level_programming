@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**
+/*
  * reverse_array - function to reverse the contents of an array
  * @a: array to be reversed
  * @n: length of array a
@@ -21,7 +21,3 @@ void reverse_array(int *a, int n)
 		n--;
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
